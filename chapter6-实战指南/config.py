@@ -18,7 +18,7 @@ class DefaultConfig(object):
       
     max_epoch = 10
     lr = 0.001 # initial learning rate
-    lr_decay = 0.5 # when val_loss increase, lr = lr*lr_decay
+    lr_decay = 0.95 # when val_loss increase, lr = lr*lr_decay
     weight_decay = 0e-5 # 损失函数
 
 
